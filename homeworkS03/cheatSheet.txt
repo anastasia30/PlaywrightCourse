@@ -1,0 +1,32 @@
+login
+[type="email"]
+[type="password"]
+[type="submit"]
+
+1 step:
+
+request title
+[name="title"]
+input[name="title"]
+description
+[name="description"]
+date of request:
+input[type="date"]
+category:
+[data-testid="cs-new-request-category"] > [role="combobox"]    
+cancel button
+[data-testid*=cancel]
+back button
+button[data-testid="cs-new-request-wizard-back"]
+next button
+button[type="button"][data-testid="cs-new-request-wizard-next"]
+
+2 step
+street address
+[name="streetAddress"][required]
+city
+[name="city"]
+postal code
+[name="postalCode"]
+
+
